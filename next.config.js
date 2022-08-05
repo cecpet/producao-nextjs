@@ -13,7 +13,7 @@ module.exports = {
       return [
         {
           source: `/Api/v2/produtos/json&estoque=S&apikey=${process.env.NEXT_PUBLIC_BLING_KEY}`,
-          destination: `https://bling.com.br/Api/v2/produtos/json&estoque=S&apikey=${process.env.NEXT_PUBLIC_BLING_KEY}`,
+          destination: `https://bling.com.br`,
         },
       ]
     },

@@ -38,18 +38,12 @@ export default function SearchBar(props) {
     });
     
 
-    https://bling.com.br/Api/v2/produtos/json&estoque=S&apikey=${process.env.NEXT_PUBLIC_BLING_KEY}
-
     useEffect(() => {
-        axios({
-            method: 'get',
-            mode: 'cors',
-            url: `https://bling.com.br/Api/v2/produtos/json&estoque=S&apikey=${process.env.NEXT_PUBLIC_BLING_KEY}`,
-            headers: {
-                'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*',
-            }
-        }).then(res => {setProdutos(res.data.retorno.produtos)})
+        fetch('https://bling.com.br/Api/v2/produtos/json&estoque=S&apikey=bdb022ba4d05d05a2b152b04843dc465ef6df0a543ddb2152fc87379aa37d7e697cd62c6')
+        .then(response => response.json())
+        .then(data => {
+            setProdutos(data.retorno.produtos);
+        })
     }, [])
 
 

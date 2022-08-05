@@ -1,7 +1,7 @@
 {
   "name": "producao-cecpet",
   "version": "0.1.0",
-  "private": true,
+  "proxy": "https://bling.com.br",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,7 +18,10 @@
     "@mui/x-date-pickers": "^5.0.0-beta.4",
     "@supabase/supabase-js": "^1.35.5",
     "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
     "date-fns": "^2.29.1",
+    "http-proxy-middleware": "^2.0.6",
     "jstoxml": "^3.2.3",
     "moment": "^2.29.4",
     "next": "12.2.3",
