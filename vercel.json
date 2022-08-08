@@ -1,7 +1,7 @@
 {
     "headers": [
       {
-        "source": "https://bling.com.br/",
+        "source": "/Api/v2/produtos/json&estoque=S&apikey=bdb022ba4d05d05a2b152b04843dc465ef6df0a543ddb2152fc87379aa37d7e697cd62c6",
         "headers": [
           { "key": "Access-Control-Allow-Credentials", "value": "true" },
           { "key": "Access-Control-Allow-Origin", "value": "*" },
