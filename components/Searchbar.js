@@ -39,7 +39,7 @@ export default function SearchBar(props) {
     
 
     useEffect(() => {
-        fetch('https://bling.com.br/Api/v2/produtos/json&estoque=S&apikey=bdb022ba4d05d05a2b152b04843dc465ef6df0a543ddb2152fc87379aa37d7e697cd62c6')
+        fetch("https://bling.com.br/Api/v2/produtos/json&estoque=S&apikey=8020092b209846d21012501e7e9dfcd71d29550e79beb439e9a0023b872037e99085fdaf")
         .then(response => response.json())
         .then(data => {
             setProdutos(data.retorno.produtos);
