@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import SearchBar from "../components/Searchbar";
-import { supabase } from "./supabaseClient";
+import { supabase } from "../lib/supabaseClient";
 import  { useEffect, useState } from "react";
 import { DataGrid } from '@mui/x-data-grid';
 import { Box } from "@mui/material";
