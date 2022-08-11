@@ -24,7 +24,7 @@ module.exports = {
     return [
       {
         // matching all API routes
-        source: `/Api/v2/produtos/json=S&apikey=${process.env.NEXT_PUBLIC_BLING_KEY}&estoque`,
+        source: `/Api/v2/produtos/json=S&apikey=${process.env.NEXT_PUBLIC_BLING_KEY}&estoque=S`,
         headers: [
           { key: "Access-Control-Allow-Credentials", value: "true" },
           { key: "Access-Control-Allow-Origin", value: "*" },

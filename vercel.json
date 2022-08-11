@@ -1,0 +1,12 @@
+{
+    "headers": [
+      {
+        "source": "/Api/v2/produtos/json&apikey=8020092b209846d21012501e7e9dfcd71d29550e79beb439e9a0023b872037e99085fdaf&estoque=S",
+        "headers": [
+          { "key": "Access-Control-Allow-Credentials", "value": "true" },
+          { "key": "Access-Control-Allow-Origin", "value": "*" },
+          { "key": "Access-Control-Allow-Methods", "value": "GET,OPTIONS,PATCH,DELETE,POST,PUT" },
+          { "key": "Access-Control-Allow-Headers", "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version" }
+        ]
+      }
+    ]
